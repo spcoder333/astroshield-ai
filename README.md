@@ -4,7 +4,7 @@ Satellite-Driven Natural Disaster Prediction & Autonomous Emergency Dispatch Sys
 
 🔗 Live Deployment & Resources
 
-Live Mission Control Dashboard: https://astroshield-ai.streamlit.app (Replace with your actual Streamlit Cloud URL)
+Live Mission Control Dashboard: https://astroshield-ai.streamlit.app 
 
 GitHub Repository: https://github.com/spcoder333/astroshield-ai
 
