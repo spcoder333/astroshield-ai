@@ -1,0 +1,10 @@
+# Python environment & cache
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+
+# Streamlit config
+.streamlit/secrets.toml
+
