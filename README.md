@@ -35,33 +35,34 @@ Figure 1: Interactive PyDeck 3D threat map displaying height-extruded risk colum
 
 🚨 Agentic Emergency Dispatch Gateway: Automatically builds and transmits structured SMS alerts to emergency response personnel via Twilio when safety indices cross critical thresholds (dispatch_engine.py).
 
-🛠️ Tech Stack & System Architecture
+### 🛠️ Tech Stack & System Architecture
 
+```text
 +-----------------------------------------------------------------------------------+
-|                                   AstroShield AI                                 |
+|                                   AstroShield AI                                  |
 +-----------------------------------------------------------------------------------+
-                                          |
-        +---------------------------------+---------------------------------+
-        |                                 |                                 |
-        v                                 v                                 v
-[ Earth Observation Data ]       [ Space Telemetry Engine ]       [ AI Threat Analytics ]
-- NASA GIBS (WMTS)               - Orbital Mechanics              - Multi-Spectral Analysis
-- Copernicus / Sentinel-2        - GPS Target Tracking            - Risk Index Calculation
-- UTC Tile Sync                  - Ground Pass Timelines          - Impact Radius Estimation
-        |                                 |                                 |
-        +---------------------------------+---------------------------------+
-                                          |
-                                          v
-                         [ Streamlit Mission Control UI ]
-                         - Interactive PyDeck 3D Globe
-                         - Sector Analysis & Metrics
-                         - Manual Trigger Controls
-                                          |
-                                          v
-                        [ Autonomous Dispatch Gateway ]
-                        - Twilio REST API Integration
-                        - Automated SMS Field Alerts
-
+                                         |
+         +-------------------------------+-------------------------------+
+         |                               |                               |
+         v                               v                               v
+[ Earth Observation Data ]     [ Space Telemetry Engine ]       [ AI Threat Analytics ]
+- NASA GIBS (WMTS)             - Orbital Mechanics              - Multi-Spectral Analysis
+- Copernicus / Sentinel-2      - GPS Target Tracking            - Risk Index Calculation
+- UTC Tile Sync                - Ground Pass Timelines          - Impact Radius Estimation
+         |                               |                               |
+         +-------------------------------+-------------------------------+
+                                         |
+                                         v
+                          [ Streamlit Mission Control UI ]
+                          - Interactive PyDeck 3D Globe
+                          - Sector Analysis & Metrics
+                          - Manual Trigger Controls
+                                         |
+                                         v
+                           [ Autonomous Dispatch Gateway ]
+                           - Twilio REST API Integration
+                           - Automated SMS Field Alerts
+```
 
 Component
 
